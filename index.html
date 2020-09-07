@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/photos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-        <link rel="icon" href="">
+    <link rel="icon" href="">
     <title>Shervin Ahmadi Photography</title>
 </head>
 
@@ -24,13 +24,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link px-4" href="#about">ABOUT</a>
+                    <a class="nav-link px-2" href="#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4" href="#gallery">GALLERY</a>
+                    <a class="nav-link px-2" href="#gallery">GALLERY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4" href="#contact">CONTACT</a>
+                    <a class="nav-link px-2" href="#contact">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-2" href="https://github.com/rjross404/ShervinPhotos"><i
+                            class="fab fa-github-square"></i> CODE</a>
                 </li>
         </div>
     </nav>
@@ -39,23 +43,31 @@
         <div class="carousel slide carousel-fade mb-3" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/wedding/analise-benevides-gWedi4SWsHQ-unsplash.jpg" class="d-block w-100" alt="">
+                    <div class="col-12 px-0">
+                        <img src="images/wedding/analise-benevides-gWedi4SWsHQ-unsplash.jpg" class="d-block w-100"
+                            alt="">
+                    </div>
                     <div class="carousel-caption d-none d-md-block">
                         <h3>Wedding</h3>
                         <p>Make your special day last forever.</p>
                         <a href="#gallery" class="btn btn-lg btn-light px-5 captionButton">View Gallery</a>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/family/omar-lopez-hiqLAaOJqW8-unsplash.jpg" class="d-block w-100" alt="">
+                <div class="carousel-item col-12 px-0">
+                    <div class="col-12 px-0">
+                        <img src="images/family/omar-lopez-hiqLAaOJqW8-unsplash.jpg" class="d-block w-100" alt="">
+                    </div>
                     <div class="carousel-caption d-none d-md-block">
                         <h3>Family</h3>
                         <p>Bring the smiles from your whole family together.</p>
                         <a href="#gallery" class="btn btn-lg btn-light px-5 captionButton">View Gallery</a>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/portrait/christian-ferrer-aK5Dt6L6_hQ-unsplash.jpg" class="d-block w-100" alt="">
+                <div class="carousel-item col-12 px-0">
+                    <div class="col-12 px-0">
+                        <img src="images/portrait/christian-ferrer-aK5Dt6L6_hQ-unsplash.jpg" class="d-block w-100"
+                            alt="">
+                    </div>
                     <div class="carousel-caption d-none d-md-block">
                         <h3>Portrait</h3>
                         <p>Capture the real you to show the world.</p>
@@ -77,7 +89,7 @@
     </div>
 
     <div class="container-flex py-5 mb-5" id="about">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center flex-fill">
             <div class="col-lg-3"></div>
             <div class="col-lg-3 col-10">
                 <h1 class="text-center mb-3">Meet Shervin</h1>
@@ -94,49 +106,87 @@
                     I will make sure you remember them forever.
                 </p>
             </div>
-            <img src="images/natashia-shukla-FFHvNDCj3vI-unsplash.jpg" alt="" class="col-lg-6 col-12">
+            <div class="col-lg-6 col-12">
+                <img src="images/natashia-shukla-FFHvNDCj3vI-unsplash.jpg" alt="" class="img-fluid">
+            </div>
         </div>
     </div>
 
     <div class="container-flex pb-5" id="gallery">
         <h1 class="text-center">Photo Gallery</h1>
         <div class="row no-gutters" data-toggle="modal" data-target="#lightbox">
-            <img src="images/family/cdc-SAwxJ8PHY3Q-unsplash.jpg" alt="" class="col-lg-2 col-md-4 col-6 w-100"
-                data-target="#carouselgallery" data-slide-to="0">
-            <img src="images/family/febrian-zakaria-K9lxUQdalbc-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="1">
-            <img src="images/family/iyinoluwa-john-onaeko-EzYCLiMRFpQ-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="2">
-            <img src="images/family/laercio-cavalcanti-JYJxLjvIGWY-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="3">
-            <img src="images/family/omar-lopez-hiqLAaOJqW8-unsplash.jpg" alt="" class="col-lg-2 col-md-4 col-6 w-100"
-                data-target="#carouselgallery" data-slide-to="4">
-            <img src="images/family/trend-341OczdirBM-unsplash.jpg" alt="" class="col-lg-2 col-md-4 col-6 w-100"
-                data-target="#carouselgallery" data-slide-to="5">
-            <img src="images/portrait/averie-woodard-4nulm-JUYFo-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="6">
-            <img src="images/portrait/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="7">
-            <img src="images/portrait/christian-ferrer-aK5Dt6L6_hQ-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="8">
-            <img src="images/portrait/clem-onojeghuo-FbTOrJ2G8KI-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="9">
-            <img src="images/portrait/drew-hays-agGIKYs4mYs-unsplash.jpg" alt="" class="col-lg-2 col-md-4 col-6 w-100"
-                data-target="#carouselgallery" data-slide-to="10">
-            <img src="images/portrait/tamara-bellis-2Tv7-O13hgk-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="11">
-            <img src="images/wedding/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg" alt="" class="col-lg-2 col-md-4 col-6 w-100"
-                data-target="#carouselgallery" data-slide-to="12">
-            <img src="images/wedding/analise-benevides-gWedi4SWsHQ-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="13">
-            <img src="images/wedding/christian-diaz-Tg_Du1s-WU0-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="14">
-            <img src="images/wedding/dmitry-schemelev-OEnKKXvdbDU-unsplash.jpg" alt=""
-                class="col-lg-2 col-md-4 col-6 w-100" data-target="#carouselgallery" data-slide-to="15">
-            <img src="images/wedding/foto-pettine-IfjHaIoAoqE-unsplash.jpg" alt="" class="col-lg-2 col-md-4 col-6 w-100"
-                data-target="#carouselgallery" data-slide-to="16">
-            <img src="images/wedding/ivan-cabanas--E2nk5pNJ1g-unsplash.jpg" alt="" class="col-lg-2 col-md-4 col-6 w-100"
-                data-target="#carouselgallery" data-slide-to="17">
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/family/cdc-SAwxJ8PHY3Q-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="0">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/family/febrian-zakaria-K9lxUQdalbc-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="1">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/family/iyinoluwa-john-onaeko-EzYCLiMRFpQ-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="2">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/family/laercio-cavalcanti-JYJxLjvIGWY-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="3">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/family/omar-lopez-hiqLAaOJqW8-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="4">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/family/trend-341OczdirBM-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="5">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/portrait/averie-woodard-4nulm-JUYFo-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="6">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/portrait/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="7">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/portrait/christian-ferrer-aK5Dt6L6_hQ-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="8">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/portrait/clem-onojeghuo-FbTOrJ2G8KI-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="9">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/portrait/drew-hays-agGIKYs4mYs-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="10">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/portrait/tamara-bellis-2Tv7-O13hgk-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="11">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/wedding/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="12">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/wedding/analise-benevides-gWedi4SWsHQ-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="13">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/wedding/christian-diaz-Tg_Du1s-WU0-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="14">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/wedding/dmitry-schemelev-OEnKKXvdbDU-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="15">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/wedding/foto-pettine-IfjHaIoAoqE-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="16">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 w-100">
+                <img src="images/wedding/ivan-cabanas--E2nk5pNJ1g-unsplash.jpg" alt="" class="img-fluid"
+                    data-target="#carouselgallery" data-slide-to="17">
+            </div>
         </div>
     </div>
 
@@ -201,26 +251,28 @@
                                     class="d-block w-100" alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/portrait/clem-onojeghuo-FbTOrJ2G8KI-unsplash.jpg"
-                                    class="d-block w-100" alt="">
+                                <img src="images/portrait/clem-onojeghuo-FbTOrJ2G8KI-unsplash.jpg" class="d-block w-100"
+                                    alt="">
                             </div>
                             <div class="carousel-item">
                                 <img src="images/portrait/drew-hays-agGIKYs4mYs-unsplash.jpg" class="d-block w-100"
                                     alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/portrait/tamara-bellis-2Tv7-O13hgk-unsplash.jpg" class="d-block w-100" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/wedding/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg" class="d-block w-100" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/wedding/analise-benevides-gWedi4SWsHQ-unsplash.jpg" class="d-block w-100"
+                                <img src="images/portrait/tamara-bellis-2Tv7-O13hgk-unsplash.jpg" class="d-block w-100"
                                     alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/wedding/christian-diaz-Tg_Du1s-WU0-unsplash.jpg"
+                                <img src="images/wedding/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg" class="d-block w-100"
+                                    alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/wedding/analise-benevides-gWedi4SWsHQ-unsplash.jpg"
                                     class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/wedding/christian-diaz-Tg_Du1s-WU0-unsplash.jpg" class="d-block w-100"
+                                    alt="">
                             </div>
                             <div class="carousel-item">
                                 <img src="images/wedding/dmitry-schemelev-OEnKKXvdbDU-unsplash.jpg"
@@ -231,7 +283,8 @@
                                     alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/wedding/ivan-cabanas--E2nk5pNJ1g-unsplash.jpg" class="d-block w-100" alt="">
+                                <img src="images/wedding/ivan-cabanas--E2nk5pNJ1g-unsplash.jpg" class="d-block w-100"
+                                    alt="">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselgallery" role="button" data-slide="prev">
@@ -252,7 +305,9 @@
 
     <div class="container-flex py-5 mb-5" id="contact">
         <div class="row justify-content-center">
-            <img src="images/wedding/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg" alt="" class="col-lg-6 col-12 pb-5">
+            <div class="col-lg-6 col-12 pb-5">
+                <img src="images/wedding/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg" alt="" class="img-fluid">
+            </div>
             <div class="col-lg-3 col-10">
                 <h1>Contact Me</h1>
                 <p class="text-muted mb-0"><i class="fas fa-mobile-alt"></i> (786) 555-5555</p>
@@ -294,14 +349,14 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 </body>
 
